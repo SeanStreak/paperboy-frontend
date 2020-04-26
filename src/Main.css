@@ -1,0 +1,299 @@
+html, body, .viewMain .viewMain>.container-fluid {
+  height: 100%;
+}
+
+.container-fluid .row{
+	min-height: 100vh;
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	background-color: #162656;
+}
+
+.menu .menu-content{
+	height: 100%;
+	width: 100%;
+}
+
+.menu .button-create-draft{
+	margin-top: 20%;
+	height: 5%;
+	width: 100%;
+	background: none;
+	border: none;
+}
+
+.menu .button-create-draft svg{
+	font-size: 2vw;
+}
+
+.logo{
+	margin: 30px auto;
+	height: 5%;
+	width: 100%;
+}
+
+.menu-button-top{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  height: 10%;
+  background: none;
+  border-radius: 0;
+  border-top: 1px solid #34a8eb;
+  border-bottom: 1px solid #34a8eb;
+	border-right: none;
+  border-left: none;
+}
+
+.menu-button-middle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  height: 10%;
+  background: none;
+  border-radius: 0;
+  border-bottom: 1px solid #34a8eb;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.menu-button-trash{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  height: 10%;
+  background: none;
+  border-radius: 0;
+  border-bottom: 1px solid #34a8eb;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.btnNew{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+  height: 10%;
+  border-top: 1px solid #34c9eb;
+ 	border-bottom: 1px solid #34c9eb;
+  background: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.menu-button-top p{
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: white;
+}
+
+.menu-button-middle p{
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: white;
+}
+
+.menu-button-trash p{
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: white;
+}
+
+.main .list{
+	border-right: 2px solid #DBDBDB;
+}
+
+.main .list .inbox-header{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.main .list .inbox-header p{
+	font-size: 40px;
+	font-weight: bold;
+	color: #7e7e7e;
+}
+
+.main .list .inbox-header button{
+	color: #7e7e7e;
+	background-color: white;
+	border: 1px solid #7e7e7e;
+	border-radius: 25px;	
+}
+
+.main .list .inbox-header .inbox-button-filter-messages{
+	margin-left: 5px;
+}
+
+.main .list .messages {
+	margin-top: 5%;
+	width: 100%;
+	border-top: 2px solid #DBDBDB;
+	overflow: auto;
+}
+
+.main .content .draft-subview{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.main .content .draft-subview .form{
+	margin-top: 2%;
+	width: 95%;
+	height: 100%;
+}
+
+.main .content .draft-subview .form .form-group-subject{
+	height: 10%;
+}
+
+.main .content .draft-subview .form .form-group-subject .submit{
+	display: flex;
+	justify-content: center;
+}
+
+.main .content .draft-subview .form .form-group-subject .submit button{
+	width: 100%;
+	color: #162656;
+	background-color: white;
+	border: 1px solid #aaaaaa;
+}
+
+.main .content .draft-subview .form .input-subject{
+	height: 100%;
+	border: none;
+	font-size: 1.5vw;
+}
+
+.main .content .draft-subview .form .input-subject::placeholder{
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: #aaaaaa;
+}
+
+.main .content .draft-subview .form .form-group-recipient{
+	height: 6%;
+}
+
+.main .content .draft-subview .form input{
+	height: 100%;
+}
+
+.main .content .draft-subview .form  input::placeholder{
+	height: 100%;
+	color: #aaaaaa;
+}
+
+.main .content .draft-subview .form .form-group-content {
+	height: 70%;
+}
+
+.main .content .draft-subview .form .form-group-content .input-message{
+	height: 100%;
+}
+
+.main .content .draft-subview .form .form-group-content .input-message::placeholder{
+	height: 100%;
+	color: #aaaaaa;
+}
+
+/** Content sub-view*/
+.main .content .content-subview{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+/** stores our content view stuff*/
+.main .content .content-subview .message-content-view {
+	width: 100%;
+}
+
+.main .content .content-subview .message-content-view .message-header{
+	width: 100%;
+	height: 5%;
+}
+
+.main .content .content-subview .message-header .message-sender-name{
+	font-weight: bold;
+	font-size: 3vh;
+	margin-left: 5%;
+	color: #656565;
+}
+
+.main .content .content-subview .message-header .message-sender-timestamp{
+	color: #aaaaaa;
+}
+
+.main .content .content-subview .message-content{
+	margin-top: 5%;
+	height: 60%;
+	width: 100%;
+}
+
+.main .content .content-subview .message-content .message-subject{
+	color: #656565;
+	font-weight: bold;
+	font-size: 1.5vw;
+	margin-left: 2%;
+}
+
+.main .content .content-subview .message-content .message-body{
+	margin-left: 2%;
+	height: 30%;
+	width: 96%;
+	font-style: italic;
+	color: #656565;
+}
+
+.main .content .content-subview .message-content .message-actions{
+	margin-top: 5%;
+	margin-left: 2%;
+	height: 10%;
+	width: 50%;
+}
+
+.main .content .content-subview .message-content .message-actions .button-message-action{
+	background-color: #ebebeb;
+	margin-left: 2%;
+	height: 3vw;
+	width: 3vw;
+	border-radius: 100px;
+	border: none;
+}
+.main .content .content-subview .message-content .message-actions .button-message-action .icon{
+	color: #aaaaaa;
+	font-size: 1vw;
+}
+
+/** Sidebar */
+.sidebar {
+	display: flex;
+	justify-content: center;	
+	background-color: #ebebeb;
+}
+.sidebar .logout{
+	margin-top: 25%;
+	height: 5%;
+	width: 80%;
+	background: none;
+	border: none;	
+}
+
+.sidebar .logout svg{
+	font-size: 1.5vw;
+	color: #7e7e7e;	
+}
+

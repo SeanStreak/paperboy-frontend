@@ -1,0 +1,53 @@
+.div-inbox-message{
+	height: 12vh;
+	width: 100%;
+	background-color: white;
+	border-bottom: 2px solid #DBDBDB;
+	overflow-x: hidden;
+}
+
+.div-inbox-message .inbox-message-header{
+	height: 20%;
+}
+
+.div-inbox-message .inbox-message-header .inbox-message-sender{
+	font-size: 1vw;
+	color: #DBDBDB;
+}
+
+.div-inbox-message .inbox-message-header .inbox-message-timestamp{
+	display: flex;
+	align-items: center;
+	color: #DBDBDB;
+	font-size: .75vw;
+}
+
+.div-inbox-message .inbox-message-header .inbox-message-timestamp p{
+	font-size: .5vw;
+	text-align: left;
+	color: red;
+}
+
+.div-inbox-message .inbox-message-subject{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 30%;
+	width: 100%;
+}
+
+.div-inbox-message .inbox-message-subject p{
+	margin-top: 2.5%;
+	color: #162656;
+	font-weight: bold;
+}
+
+.div-inbox-message .inbox-message-content{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 50%;
+	width: 100%;
+}
+
+.div-inbox-message .inbox-message-content p{
+	font-size: 1vw;
+}

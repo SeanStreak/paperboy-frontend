@@ -1,0 +1,29 @@
+.screen-auth{
+	display: flex;
+	justify-content: center;
+}
+
+.formAuth .label{
+	font-size: 1vw;
+	font-weight: bold;
+	color: #162656;
+}
+
+.formAuth .input{
+	height: 5vh;
+}
+
+.button-login{
+	height: 5vh;
+	width: 100%;
+	background-color: #162656;
+	border: none;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+.button-login p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}	

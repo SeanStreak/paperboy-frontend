@@ -24,7 +24,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>paperboy</title>
+    <script src="https://js.pusher.com/5.1/pusher.min.js"></script>
+      <script>
+
+        // Enable pusher logging - don't include this in production
+        Pusher.logToConsole = true;
+
+        var pusher = new Pusher('e2efd547e5c8e70a45b1', {
+          cluster: 'us2',
+          forceTLS: true
+        });
+
+        var channel = pusher.subscribe('my-channel');
+        channel.bind('my-event', function(data) {
+          alert(JSON.stringify(data));
+        });
+      </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

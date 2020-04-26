@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  background-color: "#00bac0";
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container{
+  min-height: 100%;
+  overflow: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +41,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.loginForm{
+  margin-top: 50px;
+  height: 500px;
+  width: 300px;
 }
