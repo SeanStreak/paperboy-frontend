@@ -9,7 +9,7 @@ import { createHttpLink } from "apollo-link-http";
 import { InMemoryCache } from 'apollo-cache-inmemory'
 
 const link = createHttpLink({
-	uri: "http://192.168.1.85:3000/graphql",
+	uri: "http://paperboy-backend.herokuapp.com/graphql",
 	credentials: 'same-origin',
 	headers: {
 		'Content-Type': "application/json"
